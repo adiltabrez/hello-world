@@ -15,3 +15,11 @@
 
 # print(rarea)
 
+# Write a program to input 2 floating point number and print thier average
+
+inum1 = int(input("Enter First Floating Point Number: "))
+inum2 = int(input("Enter Second Floating Point Number: ")) 
+
+fp_avg = inun1+inum2/2
+
+print(fp_avg)
