@@ -1,25 +1,28 @@
-# # Write a program to input 2 numbers and print their sum 
+# Write a program to input 2 numbers and print their sum 
 
-# inum1 = int(input("Enter First Number: "))
-# inum2 = int(input("Enter Second Number: "))
-
-# rnum = inum1 + inum2 
-
-# print(rnum) 
+# print(int(input("Enter First Number: ")) + int(input("Enter Second Number: ")) )
+#=================================================================================
 
 # # Write a program to input side of a square and print its area 
 
-# iside = int(input("Enter Square's Side: "))
+# rarea = int(input("Enter Square's Side: "))
+# print(rarea*rarea)
+#=================================================================================
 
-# rarea = iside*iside 
+# # Write a program to input 2 floating point number and print thier average
 
-# print(rarea)
+# fp_avg = (float(input("Enter First Floating Point Number: ")) + float(input("Enter Second Floating Point Number: "))) / 2
+# print(fp_avg)
+#================================================================================= 
 
-# Write a program to input 2 floating point number and print thier average
+# # Write a program to input 2 int numbers, a and b. Print True if a is greater than or equal to b. If not print False. 
 
-inum1 = int(input("Enter First Floating Point Number: "))
-inum2 = int(input("Enter Second Floating Point Number: ")) 
+# a = int(input("Enter number for a: "))
+# b = int(input("Enter number for b: ")) 
 
-fp_avg = inun1+inum2/2
+# if a >= b:
+#     print(True)
+# else:
+#     print(False)
+#=================================================================================
 
-print(fp_avg)
