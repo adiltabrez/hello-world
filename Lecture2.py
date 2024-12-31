@@ -15,5 +15,5 @@ a = int(input("First Number: "))
 b = int(input("Second Number: "))
 c = int(input("Third Number: "))
 
-compare = "a is greatest" if a > b and a > c else "b is greatest" if b > a and b > c else "c is greatest" 
-print(compare)
+# compare = "a is greatest" if a > b and a > c else "b is greatest" if b > a and b > c else "c is greatest" 
+# print(compare)
